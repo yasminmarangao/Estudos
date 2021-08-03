@@ -1,0 +1,12 @@
+algoritmo "Algoritmo31"
+var
+   numero: inteiro
+   
+inicio
+      escreva("Digite o numero: ")
+      leia(numero)
+      escreval("")
+      escreval("O numero eh: ", numero)
+      escreval("seu antecessor eh: ", numero - 1)
+      escreval("seu sucessor eh: ", numero + 1)
+fimalgoritmo
