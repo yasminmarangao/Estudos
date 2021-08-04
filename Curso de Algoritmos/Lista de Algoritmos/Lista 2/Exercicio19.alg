@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Algoritmo19"
 var
     num: inteiro
     resul1, resul2: real
