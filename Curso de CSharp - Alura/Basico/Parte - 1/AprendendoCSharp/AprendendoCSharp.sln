@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Escopo", "9-Escopo\9-Esco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-Comando Switch", "10-Comando Switch\10-Comando Switch.csproj", "{10F1F763-F755-4EF0-841E-564B76970784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-CalculaPoupanca", "11-CalculaPoupanca\11-CalculaPoupanca.csproj", "{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{10F1F763-F755-4EF0-841E-564B76970784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F1F763-F755-4EF0-841E-564B76970784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F1F763-F755-4EF0-841E-564B76970784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
