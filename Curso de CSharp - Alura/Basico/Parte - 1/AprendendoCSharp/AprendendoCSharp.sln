@@ -21,9 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Condicionais2", "8-Condic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Escopo", "9-Escopo\9-Escopo.csproj", "{E4A86051-F0A9-4413-85EF-6697C456EAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-Comando Switch", "10-Comando Switch\10-Comando Switch.csproj", "{10F1F763-F755-4EF0-841E-564B76970784}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-Comando Switch", "10-Comando Switch\P10-Comando Switch.csproj", "{10F1F763-F755-4EF0-841E-564B76970784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-CalculaPoupanca", "11-CalculaPoupanca\11-CalculaPoupanca.csproj", "{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11-CalculaPoupanca", "11-CalculaPoupanca\P11-CalculaPoupanca.csproj", "{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12-CalculadoraPoupanca2", "P12-CalculadoraPoupanca2\P12-CalculadoraPoupanca2.csproj", "{9FF3BC72-C84C-4990-9375-92E9BE5132A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFDF0353-A4F0-4026-8FA7-FF738B2E771D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF3BC72-C84C-4990-9375-92E9BE5132A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF3BC72-C84C-4990-9375-92E9BE5132A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF3BC72-C84C-4990-9375-92E9BE5132A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF3BC72-C84C-4990-9375-92E9BE5132A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
