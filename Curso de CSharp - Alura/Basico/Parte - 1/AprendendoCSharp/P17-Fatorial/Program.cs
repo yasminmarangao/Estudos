@@ -15,7 +15,7 @@ namespace P17_Fatorial
             int result = 1;
 
             Console.Write($"O fatorial de {num}!= ");
-            for (int i = 1; i <= num; i++)
+            for (int i = 1; i <= num; ++i)
             {
                 result *= i;
                 Console.Write(i);
