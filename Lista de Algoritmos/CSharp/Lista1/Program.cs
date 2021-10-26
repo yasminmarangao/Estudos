@@ -310,15 +310,252 @@ namespace Lista1
 
             #region Exercício 35
 
-            Console.WriteLine("");
+            //Console.Write("Digite o valor do cateto a do triangulo retângulo: ");
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Digite o valor do cateto b do triangulo retângulo: ");
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"A partir dos valores do cateto a {a}, e também do cateto b {b}, o valor da hipotenusa encontrado foi: {Math.Sqrt(Math.Pow(a,2) + (Math.Pow(b,2)))}");
+            #endregion
+
+            #region Exercício 36
+
+            //Console.Write("Digite o valor da altura de um cilindro circular em metros: ");
+            //double altura = Convert.ToDouble(Console.ReadLine());
+
+
+            //Console.Write("Digite o valor do raio de um cilindro circular em metros: ");
+            //double raio = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine($"O valor do volume encontrado foi: {((Math.Pow(raio,2)) * (altura) * (Math.PI)).ToString("n2")} metros. ");
+            #endregion
+
+            #region Exercício 37
+            //Console.Write("Digite o valor do produto: ");
+            //double valor = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"O valor do produto com desconto foi de R${((valor) - (valor * 0.23)).ToString("n2")} reais");
+            #endregion
+
+            #region Exercício 38
+            //Console.Write("Digite o valor do salário em reais: ");
+            //double sal = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine($"O valor do seu novo salário com aumento é R${((sal) + (sal * 0.25)).ToString("n2")} reais");
 
             #endregion
 
-            #region
+            #region Exercício 39
+            Console.WriteLine($"A importancia de R$ 780.000,00 será dividida entre três ganhadores de um concurso. " +
+                $"Sendo que da quantia total:" +
+                $"\n-O primeiro ganhador recebera 46%;\n" +
+                $"-O segundo receberá 32%;\n" + 
+                $"-O terceiro receberá 22%");
+            Console.WriteLine();
+            double importancia = 780000;
+
+            Console.WriteLine($"Sendo assim, o valor que o primeiro jogador irá ganhar será:" +
+                $"R${((importancia * 0.46)).ToString("n")} reais");
+            Console.WriteLine($"O valor que o  segundo jogador irá ganhar será:" +
+                $"R${((importancia * 0.32)).ToString("n")} reais");
+            Console.WriteLine($"O valor que o terceiro jogador irá ganhar será:" +
+                $"R${((importancia * 0.22)).ToString("n")} reais");
 
             #endregion
 
+            #region Exercício
 
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
+
+            #region Exercício
+
+            #endregion
         }
     }
 }
