@@ -344,24 +344,28 @@ namespace Lista1
             #endregion
 
             #region Exercício 39
-            Console.WriteLine($"A importancia de R$ 780.000,00 será dividida entre três ganhadores de um concurso. " +
-                $"Sendo que da quantia total:" +
-                $"\n-O primeiro ganhador recebera 46%;\n" +
-                $"-O segundo receberá 32%;\n" + 
-                $"-O terceiro receberá 22%");
-            Console.WriteLine();
-            double importancia = 780000;
-
-            Console.WriteLine($"Sendo assim, o valor que o primeiro jogador irá ganhar será:" +
-                $"R${((importancia * 0.46)).ToString("n")} reais");
-            Console.WriteLine($"O valor que o  segundo jogador irá ganhar será:" +
-                $"R${((importancia * 0.32)).ToString("n")} reais");
-            Console.WriteLine($"O valor que o terceiro jogador irá ganhar será:" +
-                $"R${((importancia * 0.22)).ToString("n")} reais");
-
+            //Console.WriteLine($"A importancia de R$ 780.000,00 será dividida entre três ganhadores de um concurso. " +
+            //    $"Sendo que da quantia total:" +
+            //    $"\n-O primeiro ganhador recebera 46%;\n" +
+            //    $"-O segundo receberá 32%;\n" + 
+            //    $"-O terceiro receberá 22%");
+            //Console.WriteLine();
+            //double importancia = 780000;
+            //
+            //Console.WriteLine($"Sendo assim, o valor que o primeiro jogador irá ganhar será:" +
+            //    $"R${((importancia * 0.46)).ToString("n")} reais");
+            //Console.WriteLine($"O valor que o  segundo jogador irá ganhar será:" +
+            //    $"R${((importancia * 0.32)).ToString("n")} reais");
+            //Console.WriteLine($"O valor que o terceiro jogador irá ganhar será:" +
+            //    $"R${((importancia * 0.22)).ToString("n")} reais");
             #endregion
 
-            #region Exercício
+            #region Exercício 40
+
+            Console.Write("Informe o números de dias trabalhados: ");
+            double dias = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine($"A partir do valor de dias informados, o valor do salário líquido que você irá receber é: R${((dias * 30.00) - ((dias * 30.00) * 0.08)).ToString("n2")} reais");
 
             #endregion
 
