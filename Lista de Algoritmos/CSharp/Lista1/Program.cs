@@ -361,23 +361,51 @@ namespace Lista1
             #endregion
 
             #region Exercício 40
+            //
+            //Console.Write("Informe o números de dias trabalhados: ");
+            //double dias = Convert.ToDouble(Console.ReadLine());
+            //
+            //Console.WriteLine($"A partir do valor de dias informados, o valor do " +
+            //    $"salário líquido que você irá receber é: " +
+            //    $"R${((dias * 30.00) - ((dias * 30.00) * 0.08)).ToString("n2")} reais");
+            //
+            #endregion
 
-            Console.Write("Informe o números de dias trabalhados: ");
-            double dias = Convert.ToDouble(Console.ReadLine());
+            #region Exercício 41
+            //Console.Write("Digite o valor da hora do trabalho em reais: ");
+            //double valor = Convert.ToDouble(Console.ReadLine());
+            //            
+            //Console.Write("Digite o número de horas trabalhadas no mês: ");
+            //double hora = Convert.ToDouble(Console.ReadLine());
+            //
+            //Console.WriteLine($"O valor a ser pago ao funcionário é: " +
+            //    $"R${((valor * hora) + (valor * hora) * 0.10).ToString("n2")} reais");
+            #endregion
 
-            Console.WriteLine($"A partir do valor de dias informados, o valor do salário líquido que você irá receber é: R${((dias * 30.00) - ((dias * 30.00) * 0.08)).ToString("n2")} reais");
+            #region Exercício 42
+            //Console.Write("Digite o valor do salário base: ");
+            //double sal = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine($"O valor do salário base com gratificação é: " +
+            //    $"R${((sal) + (sal * 0.05)).ToString("n2")} reais");
+
+            //Console.WriteLine($"O valor do salário base com o desconto do imposto é: " +
+            //    $"R${((sal) - (sal * 0.07)).ToString("n2")} reais");
+
+            //Console.WriteLine($"O valor do salário base com gratificação e desconto do imposto é: " +
+            //    $"R${((sal) + (sal * 0.05) - (sal * 0.07)).ToString("n2")} reais");
 
             #endregion
 
-            #region Exercício
+            #region Exercício 43
+            Console.Write("Digite o valor total do produto: ");
+            double prod = Convert.ToDouble(Console.ReadLine());
 
-            #endregion
-
-            #region Exercício
-
-            #endregion
-
-            #region Exercício
+            Console.WriteLine($"O valor a pagar com desconto: R${((prod) - (prod * 0.10)).ToString("n2")} reais");
+            Console.WriteLine($"O valor de cada parcela em 3x sem juros: R${(prod / 3).ToString("n2")} reais");
+            Console.WriteLine($"Comissão do vendedor com a venda à vista:" +
+                $" R${(0.05 * (prod - (prod * 0.10))).ToString("n2")} reais");
+            Console.WriteLine($"A comissão do vendedor se a venda for parcelada: R$ {(0.05 * prod).ToString("n2")} reais");
 
             #endregion
 
