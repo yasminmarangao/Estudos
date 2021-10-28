@@ -410,9 +410,15 @@ namespace Lista1
 
             #region Exercício 44
 
+            Console.Write("Digite a altura do degrau de uma escada em centimetros: ");
+            double alturadegrau = Convert.ToDouble(Console.ReadLine());
 
 
+            Console.Write("Digite a altura do degrau que você deseja alcançar em metros: ");
+            double alturaobjetivo = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine($"Você deverá subir {((alturaobjetivo * 100) / alturadegrau)} " +
+                $"degraus para atingir o seu objetivo");
 
             #endregion
 
