@@ -398,18 +398,21 @@ namespace Lista1
             #endregion
 
             #region Exercício 43
-            Console.Write("Digite o valor total do produto: ");
-            double prod = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine($"O valor a pagar com desconto: R${((prod) - (prod * 0.10)).ToString("n2")} reais");
-            Console.WriteLine($"O valor de cada parcela em 3x sem juros: R${(prod / 3).ToString("n2")} reais");
-            Console.WriteLine($"Comissão do vendedor com a venda à vista:" +
-                $" R${(0.05 * (prod - (prod * 0.10))).ToString("n2")} reais");
-            Console.WriteLine($"A comissão do vendedor se a venda for parcelada: R$ {(0.05 * prod).ToString("n2")} reais");
-
+            //Console.Write("Digite o valor total do produto: ");
+            //double prod = Convert.ToDouble(Console.ReadLine());
+            //
+            //Console.WriteLine($"O valor a pagar com desconto: R${((prod) - (prod * 0.10)).ToString("n2")} reais");
+            //Console.WriteLine($"O valor de cada parcela em 3x sem juros: R${(prod / 3).ToString("n2")} reais");
+            //Console.WriteLine($"Comissão do vendedor com a venda à vista:" +
+            //    $" R${(0.05 * (prod - (prod * 0.10))).ToString("n2")} reais");
+            //Console.WriteLine($"A comissão do vendedor se a venda for parcelada: R$ {(0.05 * prod).ToString("n2")} reais");
             #endregion
 
-            #region Exercício
+            #region Exercício 44
+
+
+
+
 
             #endregion
 
