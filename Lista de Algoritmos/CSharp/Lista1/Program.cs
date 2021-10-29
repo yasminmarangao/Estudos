@@ -409,20 +409,23 @@ namespace Lista1
             #endregion
 
             #region Exercício 44
-
-            Console.Write("Digite a altura do degrau de uma escada em centimetros: ");
-            double alturadegrau = Convert.ToDouble(Console.ReadLine());
-
-
-            Console.Write("Digite a altura do degrau que você deseja alcançar em metros: ");
-            double alturaobjetivo = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine($"Você deverá subir {((alturaobjetivo * 100) / alturadegrau)} " +
-                $"degraus para atingir o seu objetivo");
-
+            //Console.Write("Digite a altura do degrau de uma escada em centimetros: ");
+            //double alturadegrau = Convert.ToDouble(Console.ReadLine());
+            //
+            //Console.Write("Digite a altura do degrau que você deseja alcançar em metros: ");
+            //double alturaobjetivo = Convert.ToDouble(Console.ReadLine());
+            //
+            //Console.WriteLine($"Você deverá subir {((alturaobjetivo * 100) / alturadegrau)} " +
+            //    $"degraus para atingir o seu objetivo");
             #endregion
 
-            #region Exercício
+            #region Exercício 45
+
+            char primeiraletra = 'a';
+            Console.WriteLine($"Letra em minúsculo : {primeiraletra}");
+
+            primeiraletra = (char) 65;
+            Console.WriteLine($"Letra em maiúscula: {primeiraletra}");
 
             #endregion
 
