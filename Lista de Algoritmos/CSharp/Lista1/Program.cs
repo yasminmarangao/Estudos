@@ -427,21 +427,22 @@ namespace Lista1
             //primeiraletra = (char) 65;
             //Console.WriteLine($"Letra em maiúscula: {primeiraletra}");
 
+            Console.Write("Digite uma letra em minúsculo para ser convertida em maiuscúla: ");
+            int letra = Console.Read();
+            Console.WriteLine(Convert.ToChar(letra - 32));
             #endregion
 
-            #region Exercício  46
+            #region Exercício 46
 
-            Console.Write("Informe um número inteiro para ser invertido: ");
-            if (!int.TryParse(Console.ReadLine(), out var numero) && numero >= 0) return;
-            var invertido = 0;
-            while (numero > 0)
-            {
-                invertido = invertido * 10 + numero % 10;
-                numero /= 10;
-            }
-            Console.WriteLine(invertido); 
-
-
+            //Console.Write("Informe um número inteiro para ser invertido: ");
+            //if (!int.TryParse(Console.ReadLine(), out var numero) && numero >= 0) return;
+            //var invertido = 0;
+            //while (numero > 0)
+            //{
+            //    invertido = invertido * 10 + numero % 10;
+            //    numero /= 10;
+            //}
+            //Console.WriteLine(invertido); 
 
             #endregion
 
