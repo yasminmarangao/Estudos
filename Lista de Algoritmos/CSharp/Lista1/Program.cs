@@ -421,15 +421,27 @@ namespace Lista1
 
             #region Exercício 45
 
-            char primeiraletra = 'a';
-            Console.WriteLine($"Letra em minúsculo : {primeiraletra}");
+            //char primeiraletra = 'a';
+            //Console.WriteLine($"Letra em minúsculo : {primeiraletra}");
 
-            primeiraletra = (char) 65;
-            Console.WriteLine($"Letra em maiúscula: {primeiraletra}");
+            //primeiraletra = (char) 65;
+            //Console.WriteLine($"Letra em maiúscula: {primeiraletra}");
 
             #endregion
 
-            #region Exercício
+            #region Exercício  46
+
+            Console.Write("Informe um número inteiro para ser invertido: ");
+            if (!int.TryParse(Console.ReadLine(), out var numero) && numero >= 0) return;
+            var invertido = 0;
+            while (numero > 0)
+            {
+                invertido = invertido * 10 + numero % 10;
+                numero /= 10;
+            }
+            Console.WriteLine(invertido); 
+
+
 
             #endregion
 
